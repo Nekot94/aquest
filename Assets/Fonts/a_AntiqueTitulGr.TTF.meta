@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 7e022283d76b12c41ac2e0ee6ea20857
+timeCreated: 1497002128
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: a_AntiqueTitulGr
+  fontNames:
+  - a_AntiqueTitulGr
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

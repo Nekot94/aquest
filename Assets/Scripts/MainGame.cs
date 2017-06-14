@@ -8,7 +8,6 @@ public enum States
     strangeRoom,
     rosmarus,
     anotherDimension,
-    codeWorld,
     fightWithBear,
     goodEnd
 }
@@ -19,6 +18,10 @@ public class MainGame : MonoBehaviour
 
     private States myState;
 
+    public Image image;
+
+    public Sprite[] images;
+
     private void Start()
     {
         myState = States.strangeRoom;
@@ -26,6 +29,8 @@ public class MainGame : MonoBehaviour
 
     private void Update()
     {
+        image.sprite = images[(int) myState];
+
         if (myState == States.strangeRoom)
             StrangeRoom();
         if (myState == States.rosmarus)
